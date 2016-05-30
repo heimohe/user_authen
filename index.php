@@ -12,14 +12,18 @@
 			<center>
             <table>
                 <tr>
-                    <td>请输入用户名：<input type="text" name="username"></td>
+                    <td><br>请输入用户名：<input type="text" name="username"></td>
                 </tr>
                 <tr>
                 </tr>
                 <tr>
-                    <td><input type="submit"  value="查询">    <input type="reset" value="重置"></td>
+                    <td><br><input type="submit"  value="查询">    <input type="reset" value="重置"></td>
                      
                 </tr>
+				</br>
+				<br>
+					<br>
+					输入用户名能够查询到密码，如果不知道请使用sql注入测试
             </table>
 			</center>
         </form>
